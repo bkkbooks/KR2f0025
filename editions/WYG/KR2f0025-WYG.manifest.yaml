@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR2f0025/WYG/v1
+canonical_location: https://kanripo.org/bkk/KR2f0025/WYG/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 孫毅菴奏議
+  date: '2015-08-24 22:32:55.959882'
+  source:
+    repository: kanripo
+    path: KR2f0025
+  edition:
+    short: WYG
+    label: 【四庫全書・文淵閣】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR2f0025_000-WYG.yaml, hash: 'sha256:1b23f11851838c8ac69453685b6e0ee05fd2fab94e37407508a12a4ac444b719'}
+  - {seq: 1, filename: KR2f0025_001-WYG.yaml, hash: 'sha256:d6e10f8b73707298268dfedeed79e4ef7aaf52249328a153c4041e21d7a60f6b'}
+  - {seq: 2, filename: KR2f0025_002-WYG.yaml, hash: 'sha256:4177caba1beefdbe508ec3906492a5e427545ff30d751211159770bff8add79c'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR2f0025_000-WYG.markers.yaml, hash: 'sha256:29afcf03316bcefb3642d69339f006246b1818f7cf3487953077a1881ce7f176'}
+  - {seq: 1, role: markers, filename: assets/KR2f0025_001-WYG.markers.yaml, hash: 'sha256:190f57e4071ff55b31392f21e8c9dcdd6ccc6aae1ffa6000f305dc1ed46fdee6'}
+  - {seq: 2, role: markers, filename: assets/KR2f0025_002-WYG.markers.yaml, hash: 'sha256:56035f91f604ee74b92c2b75e2d638819a22629bde42ac60278ce447060e1178'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR2f0025_WYG_000-1a
+    span:
+    - body
+    - 0
+    - 325
+  label: 提要
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR2f0025_WYG_001-1a
+    span:
+    - body
+    - 0
+    - 18295
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR2f0025_WYG_002-1a
+    span:
+    - body
+    - 0
+    - 19535
+  label: 卷下
+  type: section
+  level: 1
+hash: sha256:2d5c9cd2e926a22a29e0ed2855b9df42f3b4c98a0b2b57b5b17a9f80e170e0bb
